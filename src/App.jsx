@@ -68,7 +68,7 @@ function App() {
         <div className='relative text-left p-4'>
           <div className="absolute bg-gradient-to-t from-[#6BF8DE] to-[#26487700] inset-0 opacity-20" />
           <div className='text-left text-4xl font-medium mb-5 mt-2'>
-            <h2>Experiencia laboral</h2>
+            <h2>Aptitudes</h2>
           </div>
           <AptitudeBlock
             title={'Industrias'}

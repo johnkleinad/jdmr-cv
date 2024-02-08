@@ -6,7 +6,7 @@ import { JobBlock, AptitudeBlock } from './components/JobBlock'
 function App() {
 
   return <>
-    <div className="container w-full rounded-xl overflow-hidden">
+    <div className="container mx-auto w-full rounded-xl overflow-hidden">
       <div className='bg-header md:max-h-[300px] md:flex p-4 gap-3'>
         <div className="w-full bg-white/20">
           <img src="img/thumbnail_IMG_14281.png" className='w-full' alt="" />

@@ -7,11 +7,11 @@ function App() {
 
   return <>
     <div className="container mx-auto w-full rounded-xl overflow-hidden">
-      <div className='bg-header md:max-h-[300px] md:flex p-4 gap-3'>
-        <div className="w-full bg-white/20">
-          <img src="img/thumbnail_IMG_14281.png" className='w-full' alt="" />
+      <div className='bg-header md:max-h-[500px] md:flex p-4 gap-3'>
+        <div className="w-full justify-center flex">
+          <img src="img/thumbnail_IMG_14281.png" className='w-full md:w-auto md:h-[300px] md:-m-4' alt="" />
         </div>
-        <div className="w-full bg-white/20 flex flex-col gap-5 pt-5">
+        <div className="w-full flex flex-col gap-5 pt-5">
           <h1 className='text-[#005E7B] font-medium text-3xl'>Juan Daniel Mejia Rodriguez</h1>
           <ul style={{ listStyleType: 'disc' }} className='flex justify-evenly text-lg'>
             <li>Web</li>
@@ -23,7 +23,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-br p-4 from-[#6bf8de] to-[#274b80] flex  flex-col gap-4">
+      <div className="bg-gradient-to-br p-4 from-[#6bf8de] to-[#274b80] flex  flex-col gap-4 md:flex-row md:justify-around">
         <InfoBlock
           icon={<PhoneIcon size={25} />}
           type={'tel'}
@@ -40,8 +40,8 @@ function App() {
           data={'Residencial Zacatenco, GAM, CDMX'}
         />
       </div>
-      <div className="bg-[#E6E6E6]">
-        <div className="p-4">
+      <div className="bg-[#E6E6E6] grid md:grid-cols-2">
+        <div className="p-4 md:px-20">
           <div className='text-left text-4xl font-medium mb-5 mt-2'>
             <h2>Experiencia laboral</h2>
           </div>
@@ -65,7 +65,7 @@ function App() {
           />
         </div>
 
-        <div className='relative text-left p-4'>
+        <div className='relative text-left p-4 md:px-20'>
           <div className="absolute bg-gradient-to-t from-[#6BF8DE] to-[#26487700] inset-0 opacity-20" />
           <div className='text-left text-4xl font-medium mb-5 mt-2'>
             <h2>Aptitudes</h2>

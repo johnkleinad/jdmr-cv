@@ -31,14 +31,14 @@ function App() {
         />
         <InfoBlock
           icon={<MailIcon size={25} />}
-          type={'tel'}
+          type={'mail'}
           data={'juan_mejia13@outlook.com'}
         />
-        <InfoBlock
+        {/* <InfoBlock
           icon={<LocationIcon size={25} />}
           type={'tel'}
           data={'Residencial Zacatenco, GAM, CDMX'}
-        />
+        /> */}
       </div>
       <div className="bg-[#E6E6E6] grid md:grid-cols-2">
         <div className="p-4 md:px-20">
@@ -66,7 +66,7 @@ function App() {
         </div>
 
         <div className='relative text-left p-4 md:px-20'>
-          <div className="absolute bg-gradient-to-t from-[#6BF8DE] to-[#26487700] inset-0 opacity-20" />
+          <div className="absolute bg-gradient-to-t from-[#6BF8DE] to-transparent inset-0 opacity-20 z-0" />
           <div className='text-left text-4xl font-medium mb-5 mt-2'>
             <h2>Aptitudes</h2>
           </div>
@@ -90,6 +90,11 @@ function App() {
             title={'Otras Utilidades'}
             list={'React.js, React Native, Next.js, Framer Motion, Tailwind,  Moti, MongoDB, Prisma, Expo, Vite, Vue.js, Ninja(Phyton), Angular.js GraphQL, Materialize CSS, Git, Yarn, Npm, Node.js'}
           />
+          <div className='flex justify-center'>
+            <button className='bg-[#005E7B] text-white px-5 py-3 rounded-md shadow-md font-medium capitalize my-4 z-10'>
+              <a target='_blank' href="./fields/juan_mejia_cv.pdf" download={'juan_mejia_cv.pdf'}>descargar resumen</a>
+            </button>
+          </div>
         </div>
       </div>
     </div>

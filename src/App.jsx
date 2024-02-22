@@ -48,7 +48,7 @@ function App() {
           <JobBlock
             date={'Octubre 2022 - Noviembre 2023'}
             jobTitle={'Grupo TRACSA'}
-            descriptionTitle={'Desarrollador web Sinior'}
+            descriptionTitle={'Desarrollador web Senior'}
             description={'Apoyé en el desarrollo de herramientas web y de la implementación de Microsoft 365 para el uso interno del conglomerado de empresas que componen Grupo Tracsa, mismas que facilitaron y optimizaron procesos como registros y administración de datos, comunicación y servicios a los clientes y comunicación interna entre colaboradores de la empresa.'}
           />
           <JobBlock
